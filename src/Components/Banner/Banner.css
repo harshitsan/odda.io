@@ -1,0 +1,34 @@
+.banner{
+    margin-top: 7vw;
+    display: flex;
+}
+
+.banner-btn{
+    display: flex;
+    gap: 3vw;
+}
+.banner-container{
+    margin-left: 6vw;
+    /* display: flex; 
+    flex-direction: column; */
+}
+.banner-btn-and-text{
+    display: flex;
+    gap: 3vw;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+}
+.banner-text .meter{
+    font-size: 2vw;
+    font-weight: 700;
+    color: #fdfdfb;
+    position: relative;
+}
+.banner-text .total-coins{
+    color: #616078;
+    position: relative;
+    top: -0.3vw;
+    font-size: 1vw;
+}
